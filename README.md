@@ -27,3 +27,8 @@ bash tail-stream.sh
 ```bash
 bash start-min-max-ad.sh
 ```
+
+# Start generating tooth wave data
+```bash
+bash start-tooth.sh
+```
