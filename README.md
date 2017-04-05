@@ -32,3 +32,8 @@ bash start-min-max-ad.sh
 ```bash
 bash start-tooth.sh
 ```
+
+# Send anomalous data 
+```bash
+bash send-anomalous-data.sh <id(int)> <value(int)>
+```
