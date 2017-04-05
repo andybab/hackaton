@@ -7,4 +7,4 @@ RUN apt-get update && \
     pip install --upgrade pip && \
     pip install kafka
 
-ADD scripts/demo-init-env.sh scripts/generate-sine.py scripts/generate-tooth.py /usr/local/bin/
+ADD scripts/demo-init-env.sh scripts/generate-sine.py scripts/generate-tooth.py scripts/min-max-ad.py /usr/local/bin/
