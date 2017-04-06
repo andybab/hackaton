@@ -9,10 +9,10 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=la
 
 while True:
   producer.send('demo-topic', {'id': 1, 'value': 2})
-  time.sleep(1)	
+  time.sleep(0.05)
   producer.send('demo-topic', {'id': 1, 'value': 2})
-  time.sleep(1)	
+  time.sleep(0.05)
   producer.send('demo-topic', {'id': 1, 'value': 1})
-  time.sleep(1)	
+  time.sleep(0.05)
   producer.send('demo-topic', {'id': 1, 'value': 1})
-  time.sleep(1)	
+  time.sleep(0.15)

@@ -8,5 +8,5 @@ import time
 producer = KafkaProducer(bootstrap_servers='localhost:9092', value_serializer=lambda v: json.dumps(v).encode('utf-8')) 
 
 while True:
-  producer.send('demo-topic', {'id': 0, 'value': sin(time.time() / 10)})
-  time.sleep(1)	
+  producer.send('demo-topic', {'id': 0, 'value': sin(time.time() / 3)})
+  time.sleep(0.2)
