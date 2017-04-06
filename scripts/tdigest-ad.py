@@ -4,7 +4,7 @@ from kafka import KafkaConsumer
 import json
 from tdigest import TDigest
 
-consumer = KafkaConsumer('demo-topic', group_id=None, bootstrap_servers='172.17.0.1:9092', value_deserializer=lambda v: json.loads(v)) 
+consumer = KafkaConsumer('demo-topic', group_id=None, bootstrap_servers='127.0.0.1:9092', value_deserializer=lambda v: json.loads(v)) 
 
 entity_detectors = {}
 counter = 0 
