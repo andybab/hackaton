@@ -37,3 +37,8 @@ bash start-tooth.sh
 ```bash
 bash send-anomalous-data.sh <id(int)> <value(int)>
 ```
+
+# Start tdigest "anomaly detector"
+```bash
+bash start-tdigest-ad.sh
+```
